@@ -9,6 +9,7 @@ TagManager:
   - Fire
   - puzzle1
   - box1
+  - Bullet
   layers:
   - Default
   - TransparentFX

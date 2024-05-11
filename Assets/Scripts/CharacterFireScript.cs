@@ -7,7 +7,7 @@ public class CharacterFireScript : MonoBehaviour
     public GameObject bullet;
     GameObject klon;
     public float sikmaAraligi;
-    bool fire;
+    bool fire = true;
 
     void Update()
     {
@@ -16,11 +16,11 @@ public class CharacterFireScript : MonoBehaviour
 
         if(Physics.Raycast(transform.position, forward, out hit, Mathf.Infinity))
         {
-            if(fire == true && Input.GetMouseButton(0))
+            if (fire == true && Input.GetMouseButton(0))
             {
-                fire = false; 
                 klon = Instantiate(bullet, transform.position, transform.rotation);
                 klon.GetComponent<Rigidbody>().AddForce(klon.transform.forward * 1000);
+                fire = false;
                 StartCoroutine(FireTime());
             }
         }
