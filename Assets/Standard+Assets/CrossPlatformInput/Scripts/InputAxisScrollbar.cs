@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace UnityStandardAssets.CrossPlatformInput
 {
-    public class InputAxisScrollbar : MonoBehaviour
+    public class InputAxisScrollbar1 : MonoBehaviour
     {
         public string axis;
 

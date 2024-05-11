@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class EventSystemChecker : MonoBehaviour
+public class EventSystemChecker1 : MonoBehaviour
 {
     //public GameObject eventSystem;
 

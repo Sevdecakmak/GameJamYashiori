@@ -12,7 +12,7 @@ public class SaldiranAISaldrilari : MonoBehaviour
 
     void Start()
     {
-        
+    
     }
 
     void Update()

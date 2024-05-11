@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class AlphaButtonClickMask : MonoBehaviour, ICanvasRaycastFilter 
+public class AlphaButtonClickMask1 : MonoBehaviour, ICanvasRaycastFilter 
 {
     protected Image _image;
 
