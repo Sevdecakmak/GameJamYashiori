@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Undefined
   - Box
+  - Fire
+  - puzzle1
+  - box1
   layers:
   - Default
   - TransparentFX

@@ -149,7 +149,7 @@ Transform:
   m_GameObject: {fileID: 12822215}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.75, y: -3.5, z: 0}
+  m_LocalPosition: {x: 1.8699951, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -273,7 +273,7 @@ Transform:
   m_GameObject: {fileID: 142807335}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.75, z: 0}
+  m_LocalPosition: {x: 0.11999512, y: -1.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -359,7 +359,7 @@ Transform:
   m_GameObject: {fileID: 174643814}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.18, y: -3.5, z: 0}
+  m_LocalPosition: {x: 11.52, y: -2.36, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -429,6 +429,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 219ea044c65754253bb985f8425aa835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dogruKonum: {x: 3.5, y: -3.5, z: 0}
+  baslangicPozisyonu1: {x: 7, y: 0, z: 0}
 --- !u!61 &174643818
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -486,7 +488,7 @@ GameObject:
   - component: {fileID: 192594192}
   m_Layer: 0
   m_Name: C1
-  m_TagString: Box
+  m_TagString: box1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -500,7 +502,7 @@ Transform:
   m_GameObject: {fileID: 192594190}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.12, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -586,7 +588,7 @@ Transform:
   m_GameObject: {fileID: 285266720}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.18, y: 0, z: 0}
+  m_LocalPosition: {x: 9.74, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -656,6 +658,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 219ea044c65754253bb985f8425aa835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dogruKonum: {x: 3.5, y: 0, z: 0}
+  baslangicPozisyonu1: {x: 7, y: 0, z: 0}
 --- !u!61 &285266724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -729,7 +733,7 @@ Transform:
   m_GameObject: {fileID: 331718575}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.43, y: 0, z: 0}
+  m_LocalPosition: {x: 12.08, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -799,6 +803,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 219ea044c65754253bb985f8425aa835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dogruKonum: {x: 1.75, y: 0, z: 0}
+  baslangicPozisyonu1: {x: 7, y: 0, z: 0}
 --- !u!61 &331718579
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -870,7 +876,7 @@ Transform:
   m_GameObject: {fileID: 367749315}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.75, y: -1.75, z: 0}
+  m_LocalPosition: {x: 1.8699951, y: -1.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -954,7 +960,7 @@ Transform:
   m_GameObject: {fileID: 678192616}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.5, z: 0}
+  m_LocalPosition: {x: 0.11999512, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1143,7 +1149,7 @@ Transform:
   m_GameObject: {fileID: 983220128}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.43, y: -3.5, z: 0}
+  m_LocalPosition: {x: 9.51, y: -3.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1213,6 +1219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 219ea044c65754253bb985f8425aa835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dogruKonum: {x: 1.75, y: -3.5, z: 0}
+  baslangicPozisyonu1: {x: 7, y: 0, z: 0}
 --- !u!61 &983220132
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1284,7 +1292,7 @@ Transform:
   m_GameObject: {fileID: 992458347}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.5, y: -1.75, z: 0}
+  m_LocalPosition: {x: 3.619995, y: -1.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1410,7 +1418,7 @@ Transform:
   m_GameObject: {fileID: 1006233163}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.43, y: -1.75, z: 0}
+  m_LocalPosition: {x: 8.75, y: 1.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1480,6 +1488,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 219ea044c65754253bb985f8425aa835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dogruKonum: {x: 1.75, y: -1.75, z: 0}
+  baslangicPozisyonu1: {x: 7, y: 0, z: 0}
 --- !u!61 &1006233167
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1551,7 +1561,7 @@ Transform:
   m_GameObject: {fileID: 1124824826}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.5, y: 0, z: 0}
+  m_LocalPosition: {x: 3.619995, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1729,7 +1739,7 @@ Transform:
   m_GameObject: {fileID: 1159271454}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.75, y: 0, z: 0}
+  m_LocalPosition: {x: 1.8699951, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1813,7 +1823,7 @@ Transform:
   m_GameObject: {fileID: 1182602215}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.5, y: -3.5, z: 0}
+  m_LocalPosition: {x: 3.619995, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1899,7 +1909,7 @@ Transform:
   m_GameObject: {fileID: 1416706347}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.68, y: -1.75, z: 0}
+  m_LocalPosition: {x: 7.45, y: -0.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1969,6 +1979,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 219ea044c65754253bb985f8425aa835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dogruKonum: {x: 0, y: -1.75, z: 0}
+  baslangicPozisyonu1: {x: 7, y: 0, z: 0}
 --- !u!61 &1416706351
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2042,7 +2054,7 @@ Transform:
   m_GameObject: {fileID: 1473400001}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.68, y: -3.5, z: 0}
+  m_LocalPosition: {x: 13.37, y: -3.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2112,6 +2124,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 219ea044c65754253bb985f8425aa835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dogruKonum: {x: 0, y: -3.5, z: 0}
+  baslangicPozisyonu1: {x: 7, y: 0, z: 0}
 --- !u!61 &1473400005
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2169,9 +2183,10 @@ GameObject:
   - component: {fileID: 1744496676}
   - component: {fileID: 1744496677}
   - component: {fileID: 1744496678}
+  - component: {fileID: 1744496679}
   m_Layer: 0
   m_Name: 1
-  m_TagString: Untagged
+  m_TagString: puzzle1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2185,7 +2200,7 @@ Transform:
   m_GameObject: {fileID: 1744496674}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.68, y: 0, z: 0}
+  m_LocalPosition: {x: 7, y: 1.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2255,6 +2270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 219ea044c65754253bb985f8425aa835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dogruKonum: {x: 0, y: 0, z: 0}
+  baslangicPozisyonu1: {x: 2.33, y: 0, z: 0}
 --- !u!61 &1744496678
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2300,6 +2317,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.75, y: 1.75}
   m_EdgeRadius: 0
+--- !u!114 &1744496679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744496674}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5442d1506b524d678d1121a4304ea33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dogruKonum: {x: 0, y: 0, z: 0}
+  baslangicPozisyonu1: {x: 7, y: 0, z: 0}
 --- !u!1 &1821037291
 GameObject:
   m_ObjectHideFlags: 0
@@ -2396,7 +2427,7 @@ Transform:
   m_GameObject: {fileID: 1997453606}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.18, y: -1.75, z: 0}
+  m_LocalPosition: {x: 9.29, y: -1.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2466,6 +2497,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 219ea044c65754253bb985f8425aa835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dogruKonum: {x: 3.5, y: -1.75, z: 0}
+  baslangicPozisyonu1: {x: 7, y: 0, z: 0}
 --- !u!61 &1997453610
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2570,7 +2603,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 45
+  field of view: 51
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2597,7 +2630,7 @@ Transform:
   m_GameObject: {fileID: 2060100644}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.96, y: -1.41, z: -10}
+  m_LocalPosition: {x: 6.18, y: -1.41, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
